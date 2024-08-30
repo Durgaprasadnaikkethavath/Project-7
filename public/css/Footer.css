@@ -1,0 +1,133 @@
+.all_details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 80px 100px;
+  background-color: black;
+  color: white;
+  gap: 10px;
+}
+
+/* box-1 */
+
+.skincare_address h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.big_para_skincare {
+  font-size: 12px;
+  line-height: 1.5;
+  /* font-family: cursive; */
+  color: #a4a4a4;
+}
+
+/* box-2 */
+.all_cat_links {
+  padding: 20px;
+}
+.sp_links {
+  margin-left: 80px;
+}
+
+.all_cat_links h2 {
+  /* color: #9b9b9b; */
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.cat_links a {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.cat_links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.payment_methods {
+  padding: 20px;
+  margin-left: -100px;
+}
+.payment_methods h2 {
+  /* color: #9b9b9b; */
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.payment_meth a {
+  display: flex;
+  /* text-decoration: none; */
+  margin-bottom: 10px;
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.payment_meth a:hover {
+  color: white;
+}
+
+.small_para_skincare {
+  font-size: 10px;
+  font-family: cursive;
+  margin-bottom: 20px;
+  color: #a76d03;
+  margin-top: -20px;
+}
+
+.background_heading {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #222;
+  margin-top: -80px;
+  padding: 0px 80px;
+  background-color: black;
+}
+
+footer {
+  padding: 20px 160px 40px 80px;
+  background-color: black;
+  color: #7b7b7b;
+}
+.footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  color: #be5a03;
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.copy_right_para {
+  font-size: 14px;
+}
+
+.copy_right_icons p {
+  font-size: 12px;
+}
+
+.copy_right_icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.copy_icon {
+  background-color: #333;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.copy_icon:hover {
+  background-color: whitesmoke;
+}

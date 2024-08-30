@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+#about_container {
+  background: url("/image/woman-6468147_1280.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.about {
+  padding: 100px 80px;
+}
+
+.about h1 {
+  margin-top: 120px;
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+}
+
+strong {
+  font-family: "Times New Roman", Times, serif;
+  color: orange;
+}
+
+.about p {
+  margin-top: 30px;
+  font-family: cursive;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.about_btn {
+  margin-top: 50px;
+}
+.about_shopping {
+  cursor: pointer;
+}
+
+.about_btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.about_image {
+  width: 100%;
+  height: 325px;
+  margin-top: -180px;
+  margin-left: 50px;
+}
+
+.feature {
+  /* margin-top: -135px; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+
+.feature p {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: #373737;
+}
+
+.owner_1 {
+  background-color: #087f5b;
+  color: #aaa;
+  margin: 10px;
+  padding: 30px;
+  margin-left: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 700px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.owner_2 {
+  background-color: #087f5b;
+  color: #aaa;
+  margin: 10px;
+  padding: 30px;
+  margin-left: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 700px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.user_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.user_name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.user_position {
+  margin-bottom: 10px;
+}
+
+.user_para {
+  font-family: cursive;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.about_me {
+  background-color: #0b7285;
+  text-decoration: none;
+  color: #0d0505;
+  font-weight: 700;
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
+}
+
+.last_image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.last_images {
+  width: 700px;
+  height: 500px;
+}
+
+.last_para {
+  padding: 40px;
+}
+
+.last_para h1 {
+  margin-top: 100px;
+  font-size: 120px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: #373737;
+  text-align: center;
+}
+
+.last_para p {
+  color: #0b7285;
+  font-size: 13px;
+  text-align: center;
+  font-family: cursive;
+}

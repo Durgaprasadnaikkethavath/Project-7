@@ -1,0 +1,125 @@
+#popular {
+  padding: 80px;
+}
+
+.popular_heading {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.popular_heading h1 {
+  color: #245606;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.popular_heading a {
+  text-decoration: none;
+  color: black;
+  background-color: #9dd006;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.product_items {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.product_details {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0b7285;
+}
+.images_p_color {
+  background-color: #0b7285;
+  border-radius: 5px;
+  padding: 10px;
+}
+.product_images {
+  /* width: 100px; */
+  height: 200px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 0px 20px 85px;
+}
+
+.product_name {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.product_price {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.new {
+  background-color: white;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.sale {
+  background-color: #dddddd;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: green;
+}
+
+.new_sale {
+  display: flex;
+  gap: 10px;
+}
+
+.add_wish {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.addToBag {
+  background-color: #ff3e6c;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ff3e6c;
+}
+
+.addToBag:hover {
+  background-color: #b82f4f;
+  border: 1px solid #b82f4f;
+}
+
+.wishlist {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.wishlist:hover {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: white;
+}

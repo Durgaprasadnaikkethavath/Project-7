@@ -1,0 +1,46 @@
+.form-container {
+  margin: 60px 400px;
+  background-color: #087f5b;
+  /* color: white; */
+  padding: 40px;
+  border-radius: 5px;
+}
+.form-container h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.form-group label {
+  font-size: 22px;
+  /* color: black; */
+}
+
+.form-group input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: #acacac;
+  border: 1px solid #acacac;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #a61e4d;
+  border: 1px solid #a61e4d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 5px white;
+}
+
+.signup {
+  font-size: 18px;
+  color: lightpink;
+}
+.signup a {
+  text-decoration: none;
+  color: white;
+}

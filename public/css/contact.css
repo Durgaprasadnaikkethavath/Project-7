@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: url("https://img.freepik.com/premium-vector/world-map-456004_660340-229.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact_heading {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact_para {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #af750a;
+  font-family: cursive;
+}
+
+.contact_section {
+  margin: 50px 150px 50px 280px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+
+form {
+  padding: 20px;
+}
+
+.name_section {
+  display: flex;
+  gap: 30px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.submit_btn {
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #028102;
+  color: white;
+  border: 1px solid #028102;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#message {
+  height: 80px;
+}
+
+/* /////////////////////// */
+
+.chat_section {
+  padding: 20px;
+}
+
+.chat_heading {
+  font-size: 22px;
+}
+.chat_sub_heading {
+  font-size: 13px;
+  margin-top: 5px;
+  color: #5d5d5d;
+}
+.chat_links {
+  margin-top: 20px;
+}
+.chat_links a {
+  color: black;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.chat_call {
+  margin-top: 20px;
+}
+
+.chat_call_para {
+  font-size: 14px;
+  color: #5d5d5d;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.chat_call_num {
+  color: black;
+  font-weight: 700;
+}
+
+.visit {
+  margin-top: 30px;
+}
+
+.visit_para {
+  font-size: 14px;
+  color: #5d5d5d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.visit_address {
+  color: black;
+  font-weight: 700;
+}

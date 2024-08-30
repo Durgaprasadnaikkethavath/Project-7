@@ -1,0 +1,128 @@
+#single_product {
+  padding: 60px 120px;
+  display: flex;
+  gap: 40px;
+}
+
+.product_1 {
+  background-color: #ffd8a8;
+  height: 600px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.product_1_image {
+  width: 400px;
+  height: 450px;
+}
+
+.product_2_image {
+  width: 500px;
+  height: 700px;
+}
+
+#single_product h1 {
+  margin-right: -220px;
+  color: #245606;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.single_product_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.single_product_details p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.single_product_details h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.top_arrow {
+  background-color: #9dd006;
+  padding: 16px;
+  color: white;
+  font-size: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product_2_image {
+  border-radius: 20px;
+}
+
+/* ///////////////////////////////// */
+/* testimonials */
+
+#testimonials {
+  padding: 40px 0px;
+  margin: 80px 0px;
+  background-color: #f4fce3;
+}
+
+#testimonials h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #245606;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.clients_text {
+  display: flex;
+  gap: 30px;
+}
+
+.client_testimonials {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.rating_icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.icons_rat {
+  color: green;
+}
+
+.rating_icons p {
+  color: #7b7b7b;
+  font-weight: 700;
+}
+
+.client_para {
+  font-size: 13px;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+
+.client_name {
+  font-family: cursive;
+  font-weight: 600;
+  margin-top: 10px;
+  color: chocolate;
+}
+
+.client_image {
+  width: 140px;
+  height: 180px;
+  border-radius: 10px;
+}
